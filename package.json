@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "miniflare-demo",
+  "version": "1.0.0",
+  "description": "Miniflare Worker Demos",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "worker",
+    "local",
+    "cloudworker"
+  ],
+  "author": "Jiyu Shao <jiyu.shao@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.7"
+  },
+  "volta": {
+    "node": "18.2.0"
+  }
+}

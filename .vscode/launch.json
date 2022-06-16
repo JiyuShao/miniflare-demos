@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Miniflare",
+      "runtimeExecutable": "/Users/jiyu/.nvm/versions/node/v16.15.1/bin/node",
+      "cwd": "/Users/jiyu/Code/personal/@faas/miniflare-demos/packages/module-worker-esm",
+      "program": "/Users/jiyu/Code/personal/@faas/miniflare/packages/miniflare/bootstrap.js",
+      "args": ["--watch", "--debug"],
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[build.upload]
+dir = "dist"
+main = "index.js"

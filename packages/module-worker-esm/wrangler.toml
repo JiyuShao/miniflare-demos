@@ -1,0 +1,15 @@
+[build.upload]
+dir = "src"
+main = "index.js"
+format = "modules"
+
+[[build.upload.rules]]
+type = "ESModule"
+globs = ["**/*.js"]
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.txt"]
+
+[triggers]
+crons = ["* * * * *"]

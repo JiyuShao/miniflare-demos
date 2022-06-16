@@ -1,0 +1,13 @@
+{
+  "name": "service-worker-esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiyu Shao <jiyu.shao@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.42"
+  }
+}
